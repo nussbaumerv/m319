@@ -1,6 +1,6 @@
 // Defines package
 package ch.tbz;
-import ch.tbz.GewitterBerechner;
+import ch.tbz.farrenheitConverter;
 
 // Imports libraries
 import static ch.tbz.lib.Input.inputString;
@@ -10,6 +10,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        GewitterBerechner.main();
+        farrenheitConverter.main();
     }
 }
