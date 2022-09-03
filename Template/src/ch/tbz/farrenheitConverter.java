@@ -5,12 +5,12 @@ import static ch.tbz.lib.Input.inputDouble;
 public class farrenheitConverter {
     static void calulateCelcius(){
         double fahrenheitInput = inputDouble("Bitte geben sie die Temperatur in Fahrenheit  ein: ");
-        double celcius = fahrenheitInput/5/9-32;
+        double celcius = (5/9) * (fahrenheitInput - 32);
         System.out.println(fahrenheitInput + " Fahrenheit = " + celcius + " Celcius");
     }
     static void calulateFahrenheit(){
         double celciusInput = inputDouble("Bitte geben sie die Temperatur in Celcius ein: ");
-        double fahrenheit = celciusInput * (9/5) + 32;
+        double fahrenheit = (9/5) * celciusInput + 32;
         System.out.println(celciusInput + " Celcius = " + fahrenheit + " Fahrenheit");
     }
     public static void main() {
