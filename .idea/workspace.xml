@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c717c33-71e5-4751-8310-781815c5922a" name="Changes" comment="" />
+    <list default="true" id="0c717c33-71e5-4751-8310-781815c5922a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Template/src/ch/tbz/numberCompersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template/src/ch/tbz/otherStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/out/production/Template/ch/tbz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template/out/production/Template/ch/tbz/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/out/production/Template/ch/tbz/mathTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template/out/production/Template/ch/tbz/mathTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/src/ch/tbz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template/src/ch/tbz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/src/ch/tbz/mathTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template/src/ch/tbz/mathTester.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +26,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Source/m319/Template"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Source/m319/Template&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="m319" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="m319" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
