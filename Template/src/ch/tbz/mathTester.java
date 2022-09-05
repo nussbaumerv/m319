@@ -9,9 +9,9 @@ public class mathTester {
         System.out.println("Do you want to test your skills gain?");
         String askAgain = inputString("Yes or No: ");
 
-        if(Objects.equals(askAgain, "Yes") || Objects.equals(askAgain, "yes")  || Objects.equals(askAgain, "Y") || Objects.equals(askAgain, "y") ){
+        if(Objects.equals(askAgain, "Yes")){
             mainMenu();
-        } else if(Objects.equals(askAgain, "No") || Objects.equals(askAgain, "no")  || Objects.equals(askAgain, "N") || Objects.equals(askAgain, "n") ){
+        } else if(Objects.equals(askAgain, "No")){
             System.out.println("Okay, goodbye!");
         }
         else{
