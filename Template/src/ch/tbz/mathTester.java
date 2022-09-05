@@ -7,11 +7,11 @@ import static ch.tbz.lib.Input.*;
 public class mathTester {
     static void testAgain(){
         System.out.println("Do you want to test your skills gain?");
-        String askAgain = inputString("Yes or No: ");
+        String askAgain = inputString("Yes or No: ").toLowerCase();
 
-        if(Objects.equals(askAgain, "Yes")){
+        if(Objects.equals(askAgain, "yes")){
             mainMenu();
-        } else if(Objects.equals(askAgain, "No")){
+        } else if(Objects.equals(askAgain, "no")){
             System.out.println("Okay, goodbye!");
         }
         else{
